@@ -23,7 +23,7 @@ jobs:
           build: npm run stop-only
           start: npm start
           wait-on: 'http://localhost:3000'
-          record: true
+          record: false
           group: 'All GH Tests (HTTP)'
         env:
           # for recording test results and videos to Cypress Dashboard
